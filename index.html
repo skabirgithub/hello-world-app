@@ -3,9 +3,106 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World App</title>
+    <title>Simple CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #444;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            margin: 0;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+        .skills ul, .experience ul {
+            list-style: none;
+            padding: 0;
+        }
+        .skills ul li, .experience ul li {
+            background: #f9f9f9;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .contact-info {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .contact-info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello, World!</h1>
+    <div class="container">
+        <div class="header">
+            <h1>John Doe</h1>
+            <p>Web Developer | Designer | Programmer</p>
+        </div>
+        <div class="section">
+            <h2>About Me</h2>
+            <p>I am a passionate web developer with experience in creating modern, responsive websites and applications. I enjoy solving problems and learning new technologies.</p>
+        </div>
+        <div class="section skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>React, Angular</li>
+                <li>Node.js, Express</li>
+                <li>Python, Django</li>
+                <li>Git, GitHub</li>
+            </ul>
+        </div>
+        <div class="section experience">
+            <h2>Experience</h2>
+            <ul>
+                <li>
+                    <strong>Web Developer</strong> - ABC Company (2020 - Present)
+                    <p>Developed and maintained responsive websites for various clients.</p>
+                </li>
+                <li>
+                    <strong>Intern</strong> - XYZ Inc. (2019 - 2020)
+                    <p>Assisted in building web applications and debugging code.</p>
+                </li>
+            </ul>
+        </div>
+        <div class="section education">
+            <h2>Education</h2>
+            <p>Bachelor's Degree in Computer Science - University of Technology (2016 - 2020)</p>
+        </div>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a></p>
+            <p>Phone: +123 456 7890</p>
+            <p>Website: <a href="https://johndoe.com" target="_blank">johndoe.com</a></p>
+        </div>
+    </div>
 </body>
 </html>
